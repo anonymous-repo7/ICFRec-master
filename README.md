@@ -1,6 +1,8 @@
 # ICFRec
 
 This is our Pytorch implementation for the paper: "**ICFRec: Intent Contrastive Sequential Recommendation with Frequency-Domain Modeling and Cross-User Augmentation**".
+The full repository will be released upon acceptance.
+
 ## Environment  Requirement
 
 * torch\==1.7.0
@@ -20,5 +22,6 @@ python main.py --data_name Beauty --alpha 0.2 --beta 0.1 --f_neg --intent_num 51
 
 ## Acknowledgment
 
-- Transformer and training pipeline are implemented based on ICSRec. Thanks them for providing efficient implementation.
+- The structure of this code is based on ICSRec. Thanks for their excellent work!
+
 
